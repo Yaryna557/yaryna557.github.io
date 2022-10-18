@@ -1,0 +1,12 @@
+body{
+    font-size: 18pt;
+    background-color: rgb(193, 193, 172);
+    color: rgb(7, 37, 37);
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20pt;
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
