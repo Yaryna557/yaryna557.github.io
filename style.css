@@ -19,6 +19,6 @@ body {
   text-decoration: none;
   line-height: 1cm;
 }
-.menu a :hover {
+.menu :hover {
   background-color: cadetblue;
 }
