@@ -10,12 +10,13 @@ body {
   background-color: rgb(233, 209, 166);
   color: rgb(7, 37, 37);
   margin: 0px;
-  font-family: 'Montserrat', sans-serif;
-  }
+  font-family: "Montserrat", sans-serif;
+}
 
-.header{
-  position: sticky;
-  top: 0;
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0px;
 }
 .navbar {
   background-color: orange;
@@ -25,7 +26,6 @@ body {
   align-items: center;
   padding: 4px 32px;
   width: 100%;
-  
 }
 .menu {
   list-style: none;
@@ -52,119 +52,154 @@ body {
 .logo {
   font-size: 26px;
   color: wheat;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
-.section{
+.logo :hover {
+  color: rgb(126, 109, 77);
+}
+
+.top {
+}
+.section {
   min-height: 100vh;
+  min-width: 100vh;
+  max-width: 100vh;
   padding-top: 26px;
+  margin: 0%;
+  width: 100%;
 }
 
-.start{
+.start {
   background-color: rgb(233, 209, 166);
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-height: 650px;
-
-
-
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
 }
-.startright{
+.startright {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 10px 50px;
-  font-size: 60px;
-  
- 
+  padding: 120px 30px;
+  gap: 15px;
 }
-.startleft{
+.startleft {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 10px 30px;
+  padding: 120px 30px;
   margin: 0px;
   font-size: 70px;
-  color: orange
+  color: orange;
 }
 
-
-
-.aboutme{
+.aboutme {
   background-color: orange;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 0%;
 }
-.nextright{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    
-}
-.nextright h1{
-  color:wheat
-}
-
-.nextleft{
+.nextright {
+  padding: 0;
+  margin: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-size: 28px;
+  white-space: nowrap;
+  background-color: orange;
+}
+.nextright h1 {
+  color: wheat;
 }
 
-
-.hobby{
+.nextleft {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: flex-start;
+  padding: 0;
+  margin: 0%;
 }
 
-.list{
-  list-style: none;
-  padding: 10%;
+.hobby {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.list {
   font-size: 34px;
   display: flex;
   flex-direction: column;
-  align-items: flex-start; 
-  
+  align-items: center;
+  list-style: none;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
 }
-.list h2{
+.list h2 {
   color: orange;
 }
-.photohob{
-width: 55%;
-padding:0px 0px 0px 0px;
+.photohob {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0%;
+  padding: 0;
 
+  gap: 10px;
+}
+.photohob1 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
 }
 
-.contacts{
+.photohob2 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.contacts {
   background-color: orange;
   padding: 0%;
-  list-style: none;
+  width: 100%;
 }
-.contacts h3{
+
+.contacts h3 {
   display: flex;
   flex-direction: row;
   justify-content: center;
   color: wheat;
-  
-}
-.top{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
 }
 
-.linklist2{
+.linklist2 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   padding: 0px 30px;
   font-size: 18px;
-}
-.top{
-  font-size: 15px;
+  text-decoration: none;
+  list-style: none;
 }
 
-  
+.link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.list2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
