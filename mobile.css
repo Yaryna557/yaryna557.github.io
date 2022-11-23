@@ -1,0 +1,10 @@
+@media screen and (max-width: 576px) {
+  .nawbar {
+    flex-direction: column;
+  }
+  .menu {
+    flex-direction: column;
+  }
+  .menu a {
+  }
+}
