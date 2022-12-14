@@ -1,13 +1,19 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <title>Моя сторінка</title>
     <meta name="description" content="Навчаюся у Львівській національній академії мистецтв на кафедрі Графічного дизайну">
     <meta property="og:image" content="https://yaryna557.github.io/mi.jpg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.0/css/lightgallery.min.css"/>
     <link rel="stylesheet" href="./style.css"/>
    <link rel="stylesheet" href="mobile.css">
-  </head>
+   <link
+   rel="stylesheet"
+   href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+ />
+ <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 
   <body>
     <div class="header">
@@ -32,6 +38,9 @@
       </div>
     </div>
     
+
+    
+
 
  <div class="section"> 
   <div class="start">
@@ -99,57 +108,50 @@
 
 
  <div class="section" id="port">
-  <div class="port">
-    <h2>Мої роботи</h2>
-    <div class="work">
-      <div class="portfolio1">
-        <div class="bee">
-          <img src="port bee.jpg" width="200">
-          <img src="port bee2.jpg" width="200">
-          <img src="port bee1.jpg" width="200">
+  <div class="gallery" id="lightgallery">
+    <div class="portfolio">
+      <h2>Мої роботи</h2>
+        <div class="portfolio1">
+          <div class="gallery-item">
+            <a href="bbbee.jpg" target="_blank">
+            <img src="bbbee.jpg" width="550" ></a>
+          </div>
+          <div class="gallery-item">
+            <a href="font.jpg" target="_blank">
+              <img src="font.jpg" width="550"></a>
+           </div>
         </div>
-        <div class="font">
-        <img src="port font1.jpg" width="190">
-        </div>
-      </div>
-     
       
-    <div class="portfolio2">
-      <div class="video">
-        <video width="240" height="160" controls>
-          <source src="Comp 3.mp4" type="video/mp4">
-        </video>
+        <div class="portfolio2">
+          <div class="gallery-item">
+            <a href="bread.jpg" target="_blank">
+              <img src="bread.jpg" width="550"></a>  
+          </div>
+           <div class="gallery-item">
+            <a href="bookk.jpg" target="_blank">
+              <img src="bookk.jpg" width="550"></a>
+       
+        </div> 
       </div>
-     
-     <div class="book">
-      <img src="port book.jpg" width="220">
-      <img src="portbook2.jpg" width="220">
-     </div>
     </div>
+   </div>
     
-  </div>
-  </div>
-    
-     
- </div> 
-   
- 
  
 
  
- 
+ <div class="section" id="contact">
   <div class="contacts">
-    <h3 id="contact">Контакти </h3>
+    <h3>Контакти </h3>
     <div class="linklist2">
        <ul class="link">
            <li>
               <a href="https://instagram.com/yaryna_svidrak?igshid=YmMyMTA2M2Y" target="_blank">
-                <img src="telegraaam.png" width="50"/>
+                <img src="telegraaam.png" width="90"/>
               </a>
               </li>
            <li> 
              <a href="https://t.me/yaryna_svidrak" target="_blank">
-              <img src="telegram.png" width="50">
+              <img src="telegram.png" width="90">
              </a> 
               </li>
        </ul>
@@ -163,9 +165,63 @@
              </li>
         </ul>  
      </div>
+     <div class="return">
+      <a href="#top"><b>Повернутися на головну</b></a>
+    </div>
   </div>
-      
+</div>
  
     
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.0/lightgallery.min.js"></script>
+
+<script type="text/javascript">
+  lightGallery(document.getElementById("lightgallery"),
+  {
+    selector: ".gallery-item a"
+  }
+  );
+</script>
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/menuspy@latest/dist/menuspy.min.js"></script>
+<script>
+    var elm = document.querySelector(".navbar .menu");
+    var ms = new MenuSpy(elm);
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+<script> 
+  const swiper = new Swiper('.swiper', {
+    loop: true,
+  
+    navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+  
+   autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+            pauseOnMouseEnter: true,
+          },
+  
+  spaceBetween: 30,
+  
+  //effect: "fade",
+  
+  pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+  
+  });
+  </script>
+
 </body>
 </html>
