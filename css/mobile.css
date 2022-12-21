@@ -281,7 +281,7 @@
     font-size: 20px;
   }
   .start {
-    padding: 120px 0px 100px 0px;
+    padding: 120px 0px 0px 0px;
   }
   .startleft {
     font-size: 38px;
@@ -328,6 +328,17 @@
   .portfolio img {
     width: 320px;
   }
+  .portfolio1 {
+    gap: 15px;
+    padding-bottom: 0px;
+  }
+  .portfolio2 {
+    gap: 15px;
+    padding-bottom: 0px;
+  }
+  .portfolio3 {
+    gap: 15px;
+  }
   .contacts h3 {
     font-size: 30px;
   }
@@ -355,14 +366,14 @@
 
 @media screen and (min-width: 990px) and (max-width: 1190px) {
   .start {
-    padding-top: 170px;
-    padding-bottom: 180px;
+    padding-top: 150px;
+    padding-bottom: 140px;
   }
   .startleft {
     font-size: 40px;
   }
   .startright img {
-    width: 150px;
+    width: 210px;
   }
 
   .h1 {
