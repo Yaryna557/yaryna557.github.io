@@ -1,0 +1,376 @@
+@media screen and (max-width: 768px) {
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    justify-content: top;
+  }
+  .header {
+    position: fixed;
+  }
+  .menu {
+    position: absolute;
+    right: 0;
+    top: 60px;
+    height: 100vh;
+    flex-direction: column;
+    width: 100vw;
+
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    margin: 0%;
+    background-color: rgb(50, 45, 45);
+    transform: translate(100%);
+    transition: 0.3s ease-in-out;
+    padding-top: 30px;
+  }
+  .gallery-item img {
+    width: 30px;
+  }
+
+  .menu.active {
+    margin-top: 0;
+    padding-top: 0%;
+    height: 100vh;
+    align-items: center;
+    transform: translate(0%);
+  }
+
+  .logo {
+    justify-content: left;
+    padding-left: 20px;
+  }
+
+  .menu a {
+    line-height: 1em;
+    margin-top: ;
+  }
+  .burger {
+    display: block;
+    transition: 0.3s ease-in-out;
+  }
+
+  .burger.active .line:first-child {
+    transform: translateY(-300px);
+  }
+
+  .burger.active .line:nth-child(2) {
+    transform: rotate(-405deg) translateY(8px);
+  }
+  .burger.active .line:nth-child(3) {
+    transform: rotate(405deg) translateY(-8px);
+  }
+
+  .logo {
+    font-size: 15px;
+  }
+
+  .start {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 70px 0px 40px 0px;
+  }
+  .startright {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+  }
+
+  .startright img {
+    border: 0px;
+    border-radius: 18px;
+    width: 270px;
+  }
+
+  .startleft {
+    font-size: 25px;
+  }
+
+  .aboutme {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    padding: 40px 0px 60px 0px;
+    
+  }
+  .nextright {
+    font-size: 13px;
+  }
+
+  .h1 {
+    font-size: 25px;
+    padding-bottom: 0px;
+    padding-top: 10px;
+
+  }
+  .nextleft {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+
+  .nextleft img {
+    border: 0px;
+    border-radius: 20px;
+    width: 310px;
+  }
+  .hobby {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 0px 0px 0px;
+  }
+
+  .listmain {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+  .listmain h2 {
+    color: orange;
+    text-transform: uppercase;
+    font-size: 25px;
+  }
+  .list {
+    font-size: 13px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: rgb(76, 20, 20);
+  }
+
+  .photohob {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+
+  .photohob img {
+    border: 0px;
+    border-radius: 20px;
+    width: 250px;
+  }
+  .photohob1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 15px;
+    padding-bottom: 0px;
+  }
+
+  .photohob2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+  }
+  * .portfolio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    padding-bottom: 80px;
+    padding-top: 30px;
+  }
+
+  .portfolio h2 {
+    font-size: 25px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+  }
+
+  .portfolio1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 0px;
+    gap: 15px;
+  }
+
+  .portfolio img {
+    border: 0px;
+    border-radius: 20px;
+    width: 380px;
+  }
+
+  .portfolio2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    gap: 15px;
+  }
+
+  .portfolio3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    gap: 15px;
+  }
+.contacts{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+  .contacts h3 {
+    font-size: 20px;
+    padding-top: 50px;
+    padding-bottom: 60px;
+  }
+  .linklist2 {
+    font-size: 19px;
+  }
+
+  .link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+  }
+  .link img {
+    filter: invert(10%);
+    filter: opacity(50%);
+    width: 100px;
+  }
+
+  .list2 {
+    gap: 15px;
+    font-size: 15px;
+  }
+  .end {
+    margin-top: 50px;
+    margin-bottom: 40px;
+  }
+  .return {
+    margin-left: 20px;
+    font-size: 15px;
+  }
+
+  .return a {
+    font-size: 15px;
+    padding: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 990px) {
+  .menu a {
+    font-size: 15px;
+    padding: 2px 20px;
+    margin: 0;
+  }
+  .logo {
+    font-size: 20px;
+  }
+  .startleft {
+    font-size: 38px;
+  }
+  .startright img {
+    width: 190px;
+  }
+  .startright {
+    gap: 10px;
+  }
+
+  .aboutme {
+    padding: 70px 0px 100px 0px;
+  }
+  .h1 {
+    font-size: 30px;
+  }
+  .nextright {
+    font-size: 16px;
+  }
+  .nextleft img {
+    width: 330px;
+  }
+  .listmain h2 {
+    font-size: 30px;
+  }
+  .list {
+    font-size: 20px;
+  }
+  .photohob img {
+    width: 140px;
+  }
+  .photohob {
+    padding: 40px 0px 35px 0px;
+  }
+
+  .portfolio h2 {
+    font-size: 35px;
+  }
+  .portfolio img {
+    width: 320px;
+  }
+  .contacts h3 {
+    font-size: 30px;
+  }
+  .link img {
+    width: 170px;
+  }
+  .return a {
+    font-size: 18px;
+  }
+  .list2 {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 990px) and (max-width: 1190px) {
+  .start {
+    padding: 160px 0px 190px 0px;
+  }
+  .startleft {
+    font-size: 55px;
+  }
+  .startright img {
+    width: 220px;
+  }
+  .startleft {
+    margin-left: 30px;
+  }
+
+  .h1 {
+    font-size: 40px;
+  }
+  .nextright {
+    font-size: 23px;
+  }
+  .nextleft img {
+    width: 370px;
+  }
+  .photohob img {
+    width: 175px;
+  }
+  .listmain h2 {
+    font-size: 40px;
+  }
+  .list {
+    font-size: 27px;
+  }
+  .portfolio img {
+    width: 450px;
+  }
+  .portfolio h2 {
+    font-size: 45px;
+  }
+
+  .link img {
+    width: 190px;
+  }
+}

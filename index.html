@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.0/css/lightgallery.min.css"/>
-    <link rel="stylesheet" href="./style.css"/>
-   <link rel="stylesheet" href="mobile.css">
+    <link rel="stylesheet" href="./css/style.css"/>
+   <link rel="stylesheet" href="css/mobile.css">
    <link
    rel="stylesheet"
    href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
@@ -35,6 +35,12 @@
           <a href="#contact">Контакти</a>
          </li>
        </ul>
+      </ul> 
+      <button class="burger"> 
+       <div class="line"></div> 
+       <div class="line"></div> 
+       <div class="line"></div> 
+   </button> 
       </div>
     </div>
     
@@ -132,6 +138,17 @@
               <img src="bookk.jpg" width="550"></a>
        
         </div> 
+        </div>
+
+        <div class="portfolio3">
+          <div class="gallery-item">
+            <a href="packing.jpg" target="_blank">
+              <img src="packing.jpg" width="550"></a>  
+          </div>
+           <div class="gallery-item">
+            <a href="bookprok.jpg" target="_blank">
+              <img src="bookprok.jpg" width="550"></a>
+         </div> 
       </div>
     </div>
    </div>
@@ -146,28 +163,36 @@
        <ul class="link">
            <li>
               <a href="https://instagram.com/yaryna_svidrak?igshid=YmMyMTA2M2Y" target="_blank">
-                <img src="telegraaam.png" width="90"/>
+                <img src="telegraaam.png" width="210"/>
               </a>
               </li>
            <li> 
              <a href="https://t.me/yaryna_svidrak" target="_blank">
-              <img src="telegram.png" width="90">
+              <img src="telegram.png" width="210">
              </a> 
               </li>
+              <li> 
+                <a href="https://www.behance.net/svidrak2009ac1" target="_blank">
+                 <img src="beh.png" width="210">
+                </a> 
+                 </li>
        </ul>
-        
-        <ul class="list2">
-             <li>
-               +380964813652
-             </li>
-             <li>
-               svidrak2003@gmail.com 
-             </li>
-        </ul>  
-     </div>
-     <div class="return">
-      <a href="#top"><b>Повернутися на головну</b></a>
-    </div>
+        <div class="end">
+          <div class="return">
+            <a href="#top"><b>Повернутися на головну</b></a>
+          </div>
+          <ul class="list2">
+            <li>
+              +380964813652
+            </li>
+            <li>
+              svidrak2003@gmail.com 
+            </li>
+            </ul>  
+    
+      
+        </div>
+       
   </div>
 </div>
  
@@ -222,6 +247,22 @@
   
   });
   </script>
+
+
+<script> 
+ 
+ 
+  const mobileNav = document.querySelector('.menu'); 
+  const burgerIcon = document.querySelector('.burger'); 
+   
+   
+   
+  burgerIcon.addEventListener('click', function(){ 
+      mobileNav.classList.toggle('active'); 
+      burgerIcon.classList.toggle('active');  
+ 
+})
+</script>
 
 </body>
 </html>
