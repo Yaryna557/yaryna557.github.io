@@ -11,10 +11,10 @@
   .menu {
     position: absolute;
     right: 0;
-    top: 60px;
+    top: 50px;
     height: 100vh;
     flex-direction: column;
-    width: 100vw;
+    width: 120vw;
 
     justify-content: center;
     align-content: center;
@@ -96,7 +96,6 @@
     flex-direction: column;
     align-self: center;
     padding: 40px 0px 60px 0px;
-    
   }
   .nextright {
     font-size: 13px;
@@ -106,7 +105,6 @@
     font-size: 25px;
     padding-bottom: 0px;
     padding-top: 10px;
-
   }
   .nextleft {
     display: flex;
@@ -188,7 +186,6 @@
     font-size: 25px;
     padding-top: 40px;
     padding-bottom: 40px;
-    
   }
 
   .portfolio1 {
@@ -202,7 +199,7 @@
   .portfolio img {
     border: 0px;
     border-radius: 20px;
-    width: 380px;
+    width: 350px;
   }
 
   .portfolio2 {
@@ -222,11 +219,11 @@
     padding-bottom: 0px;
     gap: 15px;
   }
-.contacts{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+  .contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   .contacts h3 {
     font-size: 20px;
     padding-top: 50px;
@@ -249,21 +246,24 @@
   }
 
   .list2 {
-    gap: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     font-size: 15px;
   }
   .end {
     margin-top: 50px;
     margin-bottom: 40px;
   }
+
   .return {
     margin-left: 20px;
-    font-size: 15px;
   }
 
   .return a {
-    font-size: 15px;
+    font-size: 18px;
     padding: 20px;
+    gap: 5px;
   }
 }
 
@@ -324,10 +324,17 @@
     width: 170px;
   }
   .return a {
-    font-size: 18px;
+    font-size: 23px;
   }
   .list2 {
-    font-size: 15px;
+    font-size: 18px;
+  }
+  .end {
+    padding-bottom: 40px;
+    padding-top: 40px;
+  }
+  .return {
+    padding-top: 25px;
   }
 }
 
@@ -372,5 +379,9 @@
 
   .link img {
     width: 190px;
+  }
+  .return {
+    padding-bottom: 20px;
+    padding-top: 20px;
   }
 }

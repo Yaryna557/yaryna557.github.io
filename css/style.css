@@ -274,7 +274,7 @@ body {
   padding-left: 30px;
   text-transform: uppercase;
   font-size: 35px;
-  padding-top: 80px;
+  padding-top: 50px;
   padding-bottom: 60px;
 }
 .linklist2 {
@@ -298,25 +298,28 @@ body {
 
 .list2 {
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  flex-direction: row;
+  justify-content: space-evenly;
   color: brown;
   font-weight: 600;
   list-style: none;
-  gap: 15px;
+  
   margin-right: 20px;
 }
 .end {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column;
+  align-items: initial;
   margin-top: 50px;
-  margin-bottom: 40px;
+  margin-bottom: 60px;
 }
 .return {
   text-transform: uppercase;
   margin-left: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
 }
 
 .return a {
